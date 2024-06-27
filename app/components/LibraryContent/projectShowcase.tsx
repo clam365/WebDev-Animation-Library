@@ -1,11 +1,12 @@
 import projectImage from "../../images/projects.png";
 import {Card, CardContent} from "@/components/ui/card";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProjectShowcase() {
 
     return (
-        <a href={"/projectShowcase"}>
+        <Link href={"/csProjects"}>
             <Card >
                 <CardContent className={"mt-6"}>
                     <Image src={projectImage} alt="Project Showcase" width={1000} height={500} className={"rounded-xl"}/>
@@ -15,6 +16,6 @@ export default function ProjectShowcase() {
                     </div>
                 </CardContent>
             </Card>
-        </a>
+        </Link>
     );
 }

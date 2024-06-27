@@ -1,5 +1,5 @@
 import {Fade} from "react-awesome-reveal";
-import ProjectShowcase from "@/app/components/LibraryContent/ProjectShowcase";
+import ProjectShowcase from "@/app/components/LibraryContent/projectShowcase";
 
 export default function LandingPage() {
     return (
@@ -11,7 +11,7 @@ export default function LandingPage() {
                     </h1>
                 </nav>
 
-                {/* ProjectGallery Content */}
+                {/* Page Content */}
                 <div className="container mx-auto p-4">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         <ProjectShowcase/>

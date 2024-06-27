@@ -23,7 +23,7 @@ const projects = [
 ]
 
 
-export default function ProjectGallery() {
+export default function Page() {
 
     const [modal, setModal] = useState({active: false, index: 0})
 
